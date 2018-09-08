@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Cutive+Mono|Overlock+SC');
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Overlock SC', cursive;
+*/
+
+nav {
+opacity: .6;
+margin-top: -20;
+
+}
+.brand-logo {
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+}
+nav a:link {
+  color: white;
+  
+}
+
+.landing-banner {
+  height: 1600px;
+  background-image: url("./assets/imgs/environment-fog-foggy-1314509.jpg");
+  background-size: cover;
+}
+.card-1 {
+  margin-top: 300px;
+  opacity: 1;
+}
+
+
+.about {
+  background-color: black;
+  height: 1000px;
+}
