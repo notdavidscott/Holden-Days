@@ -9,29 +9,54 @@ font-family: 'Overlock SC', cursive;
 nav {
 opacity: .6;
 margin-top: -20;
-
+border-bottom: 1px solid rgb(158, 158, 158);
 }
+
 .brand-logo {
   font-family: 'Cutive Mono', monospace;
   color: white;
 }
+
 nav a:link {
   color: white;
+  letter-spacing: 2px;
+  font-size: 2.2em;
+  
+}
+
+@media (max-width: 600px) {
+  nav a:link {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.6em;
+  }
+  
+}
+@media (max-width: 320px) {
+  nav a:link {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.30em;
+  }
   
 }
 
 .landing-banner {
-  height: 1600px;
+  height: 700px;
+  width: 100%;
   background-image: url("./assets/imgs/environment-fog-foggy-1314509.jpg");
-  background-size: cover;
+  background-size: cover; 
 }
+
 .card-1 {
-  margin-top: 300px;
   opacity: 1;
 }
 
-
+.albums {
+  background-color: rgb(26, 24, 24);
+ 
+}
 .about {
-  background-color: black;
-  height: 1000px;
+  background-color: rgb(26, 24, 24);
+  height: auto;
 }
