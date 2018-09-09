@@ -60,3 +60,8 @@ nav a:link {
   background-color: rgb(26, 24, 24);
   height: auto;
 }
+
+.card-content {
+  height: 100px;
+  overflow: scroll;
+}
