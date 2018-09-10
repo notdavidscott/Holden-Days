@@ -7,7 +7,7 @@ font-family: 'Overlock SC', cursive;
 */
 
 nav {
-opacity: .6;
+opacity: .7;
 margin-top: -20;
 border-bottom: 1px solid rgb(158, 158, 158);
 }
@@ -47,6 +47,23 @@ nav a:link {
   background-image: url("./assets/imgs/environment-fog-foggy-1314509.jpg");
   background-size: cover; 
 }
+
+.bottom-nav {
+  margin-top: 573px;
+  color: white;
+}
+.bottom-nav .btn{
+
+}
+
+@media (max-width: 600px) {
+  .bottom-nav {
+    margin-top: 589px;
+    color: white;
+  }
+  
+}
+
 
 .card-1 {
   opacity: 1;
