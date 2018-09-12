@@ -49,19 +49,24 @@ nav a:link {
 }
 
 .bottom-nav {
-  margin-top: 573px;
+  
+  margin-top: 600px;
   color: white;
+  opacity: .9;
+  
 }
+
 .bottom-nav .btn{
+  background-image: linear-gradient(-90deg, rgb(61, 42, 70), rgb(45, 77, 80));
 
 }
+
 
 @media (max-width: 600px) {
   .bottom-nav {
-    margin-top: 589px;
+    margin-top: 608px;
     color: white;
   }
-  
 }
 
 
