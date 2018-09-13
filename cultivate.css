@@ -9,9 +9,8 @@ font-family: 'Overlock SC', cursive;
 nav {
 opacity: .7;
 margin-top: -20;
-border-bottom: 1px solid rgb(158, 158, 158);
-}
 
+}
 .brand-logo {
   font-family: 'Cutive Mono', monospace;
   color: white;
@@ -48,6 +47,17 @@ nav a:link {
   background-image: url("./assets/imgs/banner.jpg");
   background-position: center;
   background-size: cover; 
+  color: white;
+}
+
+#new-release-banner {
+  margin-top: 180px;
+}
+
+#release-banner-img {
+  height: 300px;
+  width: auto;
+  box-shadow: 1px 1px 10px rgb(104, 104, 104);
 }
 
 .bottom-nav {
@@ -63,12 +73,12 @@ nav a:link {
   margin: 7px 0px;
 }
 
-
 @media (max-width: 600px) {
   .bottom-nav {
-    margin-top: 608px;
+    margin-top: 592px;
     color: white;
   }
+
 }
 
 
@@ -80,11 +90,23 @@ nav a:link {
   background-color: rgb(26, 24, 24);
  
 }
+
+@media (min-width: 600px) {
+  .about-segway {
+    background-color: black;
+    height: 300px;
+  }
+}
+
+
 .about {
   background-image: linear-gradient(rgb(0, 0, 0), rgb(26, 24, 24));
-  height: 800px;
-
+  height: 500px;
+  color: #c4c4c4;
+  font-size: 1.25em;
 }
+
+
 
 .card-content {
   height: 100px;
@@ -98,8 +120,6 @@ nav a:link {
   }
 }
 
-
-
 .contact-us {
   padding: 50px;
   color: rgb(185, 185, 185);
@@ -110,7 +130,7 @@ nav a:link {
 
 .fab {
   margin-top: 20px;
-  font-size: 4em;
+  font-size: 3em;
 }
 .fa-spotify {
   color: rgb(82, 255, 47);
