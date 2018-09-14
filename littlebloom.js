@@ -1,22 +1,50 @@
 //our little button friends after the banner 
-const toAlbums = () => {
-    window.scrollTo({
-        top: 1550,
-        behavior: "smooth"
-    });
-}
 
-const toStory = () => {
-    window.scrollTo({
-        top: 700,
-        behavior: "smooth"
-    });
-}
+// does not work on safari
+
+// const toAlbums = () => {
+//     window.scrollTo({
+//         top: 1550,
+//         behavior: "smooth"
+//     });
+// }
+$('#go-to-albums').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 1550                       // Scroll to top of body
+    }, 500);
+});
+$(function() {
+    $('body').scrollTop(0);
+ });
+
+// does not work on safari
+
+// const toStory = () => {
+//         window.scrollTo({
+//             top: 700,
+//             behavior: "smooth"
+//         });
+
+// }
+
+
+$('#go-to-story').click(function() {      // button click
+    $('body,html').animate({
+        scrollTop : 840                       // Scroll to story
+    }, 500);
+});
+
+
+$(function() {
+    $('body').scrollTop(0);
+ });
+
+
 
 //actual return to top jquery
-    $('#return-to-top').click(function() {      // When arrow is clicked
+    $('#return-to-top').click(function() {      // button click
         $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
+            scrollTop : 0                       // Scroll to albums
         }, 500);
     });
    
@@ -41,25 +69,5 @@ const toStory = () => {
                 $('.fixed-action-btn').fadeIn();
             }
      });
-
- // scroll to the next part 
-    //  $(window).scroll(function() {
-    //     if ($(this).scrollTop() > 1550)
-    //        {
-    //            $('.fixed-action-btn-down').fadeOut();
-    //        } else {
-    //            $('.fixed-action-btn-down').fadeIn();
-    //        }
-    // });
-
-    // const skipToAlbums = () => {
-    //     window.scrollTo({
-    //         top: 1550,
-    //         behavior: "smooth"
-    //     });
-    // }
-    //  $("#go-to-albums").click(function() {
-    //    scrollTo(window, ".albums");
-    //     });
 
   

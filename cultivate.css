@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Cutive+Mono|Overlock+SC');
-
-/*
-font-family: 'Amatic SC', cursive;
-font-family: 'Cutive Mono', monospace;
-font-family: 'Overlock SC', cursive;
-*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 nav {
 opacity: .7;
@@ -50,6 +45,7 @@ nav a:link {
   color: white;
 }
 
+/* 
 #new-release-banner {
   margin-top: 180px;
 }
@@ -58,54 +54,45 @@ nav a:link {
   height: 300px;
   width: auto;
   box-shadow: 1px 1px 10px rgb(104, 104, 104);
-}
+} */
 
 .bottom-nav {
-
   margin-top: 584px;
   color: white;
   opacity: .9;
-  
 }
 
 .bottom-nav .btn{
-  background-image: linear-gradient(-90deg, rgb(34, 24, 39), rgb(35, 61, 63));
+  background-color: black;
   margin: 7px 0px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 600px) {
   .bottom-nav {
     margin-top: 592px;
-    color: white;
   }
-
+  
 }
-
-
-.card-1 {
-  opacity: 1;
-}
-
 .albums {
   background-color: rgb(26, 24, 24);
- 
+  
 }
 
-@media (min-width: 600px) {
-  .about-segway {
+.about-segway {
     background-color: black;
-    height: 300px;
-  }
+    height: 150px;
 }
-
 
 .about {
   background-image: linear-gradient(rgb(0, 0, 0), rgb(26, 24, 24));
-  height: 500px;
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
   color: #c4c4c4;
   font-size: 1.25em;
 }
-
 
 
 .card-content {
@@ -116,12 +103,12 @@ nav a:link {
 @media (min-width: 600px) {
   .contact-us-segway {
     height: 300px;
-    background-image: linear-gradient(180deg, rgb(26, 24, 24), rgb(10, 29, 44));
+    background-image: linear-gradient(180deg, rgb(26, 24, 24), rgb(37, 27, 27));
   }
 }
 
 .contact-us {
-  padding: 50px;
+  padding: 25px;
   color: rgb(185, 185, 185);
   background-color: black;
   border-top: 3.5px solid rgb(27, 27, 27);
@@ -130,15 +117,24 @@ nav a:link {
 
 .fab {
   margin-top: 20px;
-  font-size: 3em;
+  font-size: 1.75em;
+  color: rgb(206, 206, 206);
+  border: 2px solid rgb(170, 170, 170);
+  border-radius: 50%;
 }
 .fa-spotify {
-  color: rgb(82, 255, 47);
+  padding: 5px;
 }
 .fa-bandcamp {
-  color: lightseagreen;
+  padding: 5px;
 }
-
 .fa-instagram {
-  color: rgb(189, 80, 116);
+  padding: 5px;
+}
+.fa-facebook-f {
+  padding: 5px 10px;
+}
+.fa-soundcloud {
+  font-size: 1.5em;
+  padding: 8px 4px;
 }
