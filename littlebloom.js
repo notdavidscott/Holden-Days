@@ -1,44 +1,33 @@
-//our little button friends after the banner 
+//go to albums mobile
+$('#go-to-albums-mobile').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 1700                       // Scroll to top of body
+    }, 500);
+});
 
-// does not work on safari
+//go to story mobile
 
-// const toAlbums = () => {
-//     window.scrollTo({
-//         top: 1550,
-//         behavior: "smooth"
-//     });
-// }
-$('#go-to-albums').click(function() {      // When arrow is clicked
+$('#go-to-story-mobile').click(function() {      // button click
+    $('body,html').animate({
+        scrollTop : 950                       // Scroll to story
+    }, 500);
+});
+
+//go to albums full screen
+
+ $('#go-to-albums').click(function() {      // When arrow is clicked
     $('body,html').animate({
         scrollTop : 1550                       // Scroll to top of body
     }, 500);
 });
-$(function() {
-    $('body').scrollTop(0);
- });
 
-// does not work on safari
-
-// const toStory = () => {
-//         window.scrollTo({
-//             top: 700,
-//             behavior: "smooth"
-//         });
-
-// }
-
+//go to story full screen 
 
 $('#go-to-story').click(function() {      // button click
     $('body,html').animate({
         scrollTop : 840                       // Scroll to story
     }, 500);
 });
-
-
-$(function() {
-    $('body').scrollTop(0);
- });
-
 
 
 //actual return to top jquery
